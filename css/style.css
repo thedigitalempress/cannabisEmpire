@@ -1,0 +1,159 @@
+/* Main Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ruda', sans-serif;
+    background-color: #fff;
+
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 20%;
+}
+
+header {
+    background: url("../img/bgpic.jpg");
+    background-size: cover;
+}
+
+.topNav {
+    padding: 10px;
+    background: #000;
+    letter-spacing: 2px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: 'Ruda', sans-serif;
+    font-size: 22px;
+}
+
+ul {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+iframe {
+    padding: 160px;
+    display: block;
+    margin: auto;
+}
+
+.herbs {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+#herbs {
+    color: #000;
+}
+
+.herbItems {
+    width: 20%;
+}
+
+.main-section {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Ruda', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.blogSection {
+    float: left;
+    padding: 50px;
+    padding-left: 350px;
+    width: 800px;
+    height: 480px;
+    background-color: rgb(174, 211, 253);
+    color: #fff;
+}
+
+.sidebar {
+    float: right;
+    padding: 40px;
+    width: 620px;
+    height: 500px;
+    background-color: #d8b2ee;
+}
+
+.blogStyles {
+    height: 500px;
+}
+
+.blogImage {
+    float: left;
+    padding: 5px 10px;
+    width: 20%;
+}
+
+p {
+    padding: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1082px){
+
+}
+
+@media screen and (max-width: 1082px) and (min-width: 100px) {
+    .blogSection {
+        float: none;
+        clear: left;
+        width: 100%;
+        height: 150px;
+        padding: 30px 0;
+        
+    }
+
+    .sidebar {
+        float: none;
+        clear: left;
+        width: 40%;
+        height: 150px;
+        padding: 20px 0;
+        height: 150px;   
+    }
+
+    iframe {
+        padding: 0;
+    }
+
+    .blogImage {
+        height: 40%;
+        text-align: center;
+        
+    }
+}
